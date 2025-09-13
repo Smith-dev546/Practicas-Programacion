@@ -14,3 +14,7 @@ frutas.forEach((fruta, index) => {
 
 const resultado = nums.reduce((sum, num) => sum + num, 0);
 console.log(resultado); // Muestra la suma de todos los numeros del array
+
+frutas.map((fruta, index) => {
+    console.log(`${fruta} en el indice ${index}`); // Muestra cada fruta con su indice
+});
